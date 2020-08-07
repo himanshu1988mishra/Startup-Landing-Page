@@ -1,0 +1,69 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  /* Adding full width background image */
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  color: #e2dbdb;
+  font-size: 2.5rem;
+}
+
+.buffer {
+  height: 8rem;
+}
+
+hr {
+  border-color: #f05f44;
+  border-width:3px;
+  max-width: 65px;
+}
+
+button.btn-event {
+  border-radius: 2rem;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.btn-info,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:visited,
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.show>.btn-info.dropdown-toggle {
+  background-color: #f05f44;
+  border-color: #f05f44;
+}
+
+.btn-info:hover {
+  background-color: #e05035;
+  border-color: #e05035;
+  border-width: 4px;
+}
+
+@media all and (max-width: 1199px) {
+  h1 {
+    font-size:2rem;
+  }
+}
+
+@media all and (max-width: 991px) {
+  h1 {
+    font-size:1.8rem;
+  }
+
+  button.btn-event {
+    font-size: 0.6rem;
+  }
+}
